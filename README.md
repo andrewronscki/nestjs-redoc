@@ -1,4 +1,4 @@
-## NestJS ReDoc (Swagger UI Alternative) - Jozefazz Version
+## NestJS ReDoc (Swagger UI Alternative) - André Wronscki Version
 
 ## Introduction
 
@@ -15,7 +15,7 @@ NB: Please read the [ReDoc](https://redocly.com/docs/redoc/) Documentation first
 
 ## 🗿 Installation
 
-Using npm: `npm install @jozefazz/nestjs-redoc`
+Using npm: `npm install @andrewronscki/nestjs-redoc`
 
 ## How to use
 
@@ -77,7 +77,7 @@ export async function setupRedoc(app: INestApplication) {
   const documentBuilder = new DocumentBuilder()
     .setTitle(`${process.env.DOCS_TITLE}`)
     .setVersion('1.0')
-    .setDescription('Powered by Jozefazz')
+    .setDescription('Powered by andrewronscki')
     .addBearerAuth(
       {
         description: `Please enter token in following format: Bearer <JWT>`,
@@ -196,4 +196,4 @@ Apply the properties defined in ResolvedThemeInterface to the key called "theme"
 
 ### Special Thanks
 
-Forked from https://github.com/jozefazz/nestjs-redoc
+Forked from https://github.com/andrewronscki/nestjs-redoc
