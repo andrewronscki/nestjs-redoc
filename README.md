@@ -196,4 +196,4 @@ Apply the properties defined in ResolvedThemeInterface to the key called "theme"
 
 ### Special Thanks
 
-Forked from https://github.com/andrewronscki/nestjs-redoc
+Forked from https://github.com/jozefazz/nestjs-redoc
